@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/7349bc3776.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logotipo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/section.css"> 
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="mob/header.css">
+    <link rel="stylesheet" href="mob/main.css">
+    <link rel="stylesheet" href="mob/footer.css">
+    <link rel="stylesheet" href="apresentacao.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Falcon</title>
+</head>
+
+<body>
+
+    <style>
+        body{
+            background:linear-gradient(to top ,  #1f1f1f 100% , #161616 80% );
+        }
+
+        body::-webkit-scrollbar {
+        width: 12px;   
+        background-color: #161616;          
+        }
+        body::-webkit-scrollbar-track {
+        background: #043e47; 
+        transition: 2s;        
+        }
+
+        body::-webkit-scrollbar-thumb {
+        background-color:#009cb8;
+        transition: 2s;  
+        }
+
+        body::-webkit-scrollbar-thumb:hover{
+            background-color: #00ffcc;
+           
+        }
+
+        .ativar{
+            display: flex;
+
+
+        }
+     
+        @media (max-width:700px){
+            nav,.fundo-icone,.fundo-logo,
+            .fundo-pesquisaprincipal,.fundo-modulos{
+            display: none;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                overflow-x: hidden;
+            }
+            html{
+                width: 100%;
+    
+            }
+
+            .fundo-imagem{
+                display: none;
+            }
+
+           
+
+            #texto-meio-principal{
+                font-size: 20px;
+            }
+
+            #texto-curso-principal{
+                font-size: 20px;
+            }
+
+         
+            .fundo-texto{
+                width: 100%;
+                height: 500px;
+                display: flex;
+            }
+
+            .informativos{
+                width: 100%;
+                height: 200px;
+            }
+        }
+   
+    </style>
+
+    <header class="menuheader">
+
+        <div class="fundo-header">
+
+            <div class="fundo-menumob">
+                <i class="bi bi-list" id="icone-menumob"></i>
+                
+                <div class="abrir-menu" id="abrir-menu">
+
+                    <div class="fundo-infor-menu">
+                        
+                        <div class="fundo-fechar-abrirmenu">
+                            <p id="logomenu">código falcon</p>
+
+                            <i class="bi bi-x" id="closeheader-menu"></i>
+                        </div>
+                        
+                        <div class="fundo-navmenu">
+                            <a href="manutençao.html" id="dados-navmenu">Cursos</a>
+                            <a href="manutençao.html" id="dados-navmenu">Atividades</a>
+                            <a href="manutençao.html" id="dados-navmenu">Projetos</a>
+                            <a href="manutençao.html" id="dados-navmenu">Blog</a>
+                            <a href="manutençao.html" id="dados-navmenu" class="btn-entrarmenu">Entrar</a>
+                        </div>
+                     
+                    </div>
+                </div>
+
+            </div>
+            <div class="fundo-logomob">
+                <img src="logotipo.png" alt="" id="logomob">
+            </div>
+            <div class="fundo-person">
+                <i class="bi bi-person-fill" id="icone-personmob"></i>
+            </div>
+        </div>
+
+        <div class="fundo-logo">
+            <img src="logotipo.png" alt="" id="logodesk">
+
+        </div>
+
+        <div class="fundo-pesquisaprincipal">
+            <i class="bi bi-search" id="icones-pesquisa"></i>
+            <input type="text" id="input-pesquisa" placeholder="O que Procura ?" >
+            <i class="bi bi-x" id="icone-closeheader"></i>
+
+        </div>
+        
+        <nav>
+            <a href="manutençao.html" id="dados-nav">Cursos</a>
+            <a href="manutençao.html" id="dados-nav">Atividades</a>
+            <a href="manutençao.html" id="dados-nav">Projetos</a>
+            <a href="manutençao.html" id="dados-nav">Blog</a>
+            <a href="manutençao.html" id="dados-nav" class="btn-entrar">Entrar</a>
+        </nav>
+
+    </header>
+
+    <main class="mainmob">
+
+    <div class="fundo-imagem">
+        <img src="imagem.png" alt="" id="imagem-principal">
+
+    </div>
+
+
+    <article class="fundo-cursos">
+
+        <div class="fundo-texto">
+            <div class="fundo-textoprincipal">
+                <p id="texto-curso-principal">Você </p>
+                <p id="texto-meio-principal">TOP </p>
+                <p id="texto-curso-principal">no Mercado! </p>
+            </div>
+           
+            <p id="texto-curso-segundario">Bem-vindos à emocionante jornada da Programação, o mundo digital espera por você.<br> Vamos codificar o futuro juntos!
+                Preparem-se para desafios, descobertas e, acima de tudo, para o incrível sentimento de realização que vem ao transformar linhas de código em algo tangível e incrível.</p>
+        </div>
+</main>
+        <section>
+            <div class="informativos">
+                ola
+            </div>
+        </section>
+
+        <section>
+            <article class="barra">
+                <div class="quadros"> </div>
+                <div class="quadros"> </div>
+                <div class="quadros"> </div>
+            </article>
+            
+        </section>
+
+
+     
